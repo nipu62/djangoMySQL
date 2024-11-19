@@ -86,8 +86,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'library',  # Replace with your schema name
-        'USER': 'root',  # Replace with your MySQL username
-        'PASSWORD': 'admin',  # Replace with your MySQL password
+        'USER': 'your_mysql_user',  # Replace with your MySQL username
+        'PASSWORD': 'your_mysql_password',  # Replace with your MySQL password
         'HOST': 'localhost',  # Use the IP address if hosted remotely
         'PORT': '3306',  # Default MySQL port
     }
